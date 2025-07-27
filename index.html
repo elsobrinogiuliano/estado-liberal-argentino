@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Estado Liberal Argentino</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Montserrat', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', 'Twemoji Mozilla', 'Twemoji', 'Segoe UI Symbol', sans-serif;
+            background-color: #f0f9ff; /* Light Blue Background */
+            color: #334155; /* Dark Slate Gray Text */
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #1e40af; /* Dark Blue for Headings */
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .section-card {
+            background-color: #e0f2fe; /* Lighter Blue for sections */
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .summary-title {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #1e40af;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+        }
+        .summary-title::after {
+            content: '▼';
+            margin-left: 0.5rem;
+            transition: transform 0.2s;
+        }
+        details[open] .summary-title::after {
+            transform: rotate(180deg);
+        }
+        .answer-button {
+            background-color: #3b82f6; /* Blue */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .answer-button:hover {
+            background-color: #2563eb; /* Darker Blue on Hover */
+        }
+        .answer-box {
+            background-color: #dbeafe; /* Very Light Blue */
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-top: 1rem;
+            border: 1px solid #93c5fd;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2 text-blue-800">
+                🇦🇷 El Estado Liberal Argentino 🇦🇷
+            </h1>
+            <p class="text-xl text-gray-600">
+                ¡Una Aventura de Libertad y Progreso! ✨
+            </p>
+        </header>
+
+        <section class="section-card mb-8">
+            <h2 class="text-2xl font-bold mb-4">¿Qué fue el Estado Liberal en Argentina? 🤔</h2>
+            <p class="text-lg mb-4">
+                Imagina que Argentina, recién salida de las guerras de independencia en el siglo XIX, era como un lienzo en blanco. Los líderes de la época no querían copiar los viejos modelos de reyes o colonias. Querían algo nuevo, algo que gritara <strong>"¡Libertad y Progreso!"<strong> 🚀.</p>
+            </p>
+            <p class="text-lg">
+                Ahí nació la idea del **Estado Liberal**. Era una forma de organizar el país pensando en que el gobierno debía ser como un buen árbitro: presente, pero sin meterse demasiado en el partido de la vida de la gente. La meta era que cada persona fuera más libre para hacer, pensar y emprender. ¡Era una apuesta grande por el futuro! 💡
+            </p>
+            <!-- Espacio para imagen de la Introducción -->
+            <div class="flex justify-center my-6">
+                <img src="https://th.bing.com/th/id/R.4fd8d9cbde36919bf73889e39628d801?rik=gRux39zm3qad0A&pid=ImgRaw&r=0'">
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-center">Los 3 Pilares del Estado Liberal 🏗️</h2>
+
+            <!-- Pilar 1: Libertad Individual -->
+            <div class="section-card">
+                <details>
+                    <summary class="summary-title">
+                        1. ¡Libertad para Todos (o casi)! 🕊️
+                    </summary>
+                    <div class="mt-4 text-gray-700">
+                        <p class="mb-2">
+                            La idea principal era que el gobierno debía ser como un espectador respetuoso, no un director de orquesta que controlara cada nota. La gente debía tener espacio para ser y hacer:
+                        </p>
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Menos control del gobierno:** Querían que cada uno fuera libre de pensar, hablar, creer lo que quisiera y trabajar en lo que le apasionara. ¡Menos reglas, más acción! 💪</li>
+                            <li>**Derechos individuales:** Se empezó a hablar con fuerza de los derechos de las personas: tener tus propias cosas (propiedad), poder decir lo que pensabas (libertad de expresión) y comerciar sin ataduras. Esto era vital para que la gente se sintiera segura y pudiera crecer. 🏡🗣️🛒</li>
+                        </ul>
+                        <!-- Espacio para imagen del Pilar 1 -->
+                        <div class="flex justify-center my-4">
+                            <img src="https://th.bing.com/th/id/R.0e20d42815bf9bd04abda930b46089db?rik=9VEmAzpkfbGJbg&pid=ImgRaw&r=0'">
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <!-- Pilar 2: Economía Abierta -->
+            <div class="section-card">
+                <details>
+                    <summary class="summary-title">
+                        2. ¡Economía sin Frenos! 📈
+                    </summary>
+                    <div class="mt-4 text-gray-700">
+                        <p class="mb-2">
+                            Para que el país creciera y se hiciera rico, la receta era simple: dejar que el mercado hiciera lo suyo. Pensaban que la libertad económica era la clave:
+                        </p>
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Comercio sin trabas:** La idea era vender lo que producíamos (granos, carne) al mundo sin muchas complicaciones ni impuestos. ¡Querían que el dinero fluyera! 🌾🥩💰</li>
+                            <li>**Atraer inversiones y gente:** Para crecer rápido, necesitaban dos cosas: dinero de afuera (capital) para construir ferrocarriles y puertos, y mucha gente (inmigrantes) para trabajar la tierra. ¡Argentina era vista como la tierra de las oportunidades! 🚂🚢👨‍👩‍👧‍👦</li>
+                        </ul>
+                        <!-- Espacio para imagen del Pilar 2 -->
+                        <div class="flex justify-center my-4">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.yJCgN37zEEd3x0AQnZ1z9QHaE7?w=2453&h=1632&rs=1&pid=ImgDetMain&o=7&rm=3'">
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <!-- Pilar 3: Gobierno con Límites -->
+            <div class="section-card">
+                <details>
+                    <summary class="summary-title">
+                        3. ¡Un Gobierno Equilibrado! ⚖️
+                    </summary>
+                    <div class="mt-4 text-gray-700">
+                        <p class="mb-2">
+                            Para que nadie tuviera demasiado poder (¡adiós a los reyes!), el liberalismo propuso un gobierno "repartido":
+                        </p>
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**División de poderes:** El gobierno se dividió en tres equipos: el que hace las leyes (Legislativo 📜), el que las aplica (Ejecutivo 🧑‍⚖️) y el que resuelve los problemas (Judicial 🏛️). Así, se vigilaban entre sí.</li>
+                            <li>**La Constitución: el "libro de reglas":** Para que todo estuviera claro, hicieron una Constitución (la que tenemos hoy, con algunos cambios). Era el manual de instrucciones del país, donde se escribieron los derechos de la gente y cómo funcionaría el gobierno. 📖</li>
+                        </ul>
+                        <!-- Espacio para imagen del Pilar 3 -->
+                        <div class="flex justify-center my-4">
+                            <img src="https://th.bing.com/th/id/R.5c872e9f844af77b5da03efe54d60740?rik=lyIlMnFMG4cDoQ&pid=ImgRaw&r=0'">
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <section class="section-card mb-8">
+            <h2 class="text-2xl font-bold mb-4">¿Y cómo le fue a Argentina con esto? 🌟</h2>
+            <p class="text-lg mb-4">
+                ¡Pues bastante bien al principio! El Estado Liberal fue como un motor que impulsó un **gran crecimiento** a fines del siglo XIX y principios del XX. Argentina se llenó de gente, se construyeron ferrocarriles por todos lados, se exportó un montón de comida y el país se volvió uno de los más ricos del mundo en ese momento. ¡Éramos la "granero del mundo"! 🌾🌎
+            </p>
+            <p class="text-lg">
+                Pero, como todo en la vida, no fue perfecto. La riqueza no se repartió igual para todos, y no todos tenían voz en las decisiones del país. Estas cositas, con el tiempo, hicieron que el modelo tuviera que cambiar y adaptarse. 🔄
+            </p>
+            <!-- Espacio para imagen de la sección de Logros y Qué Pasó -->
+            <div class="flex justify-center my-6">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.PBf8ER7p0U9Svz3a86u2AwHaFW?rs=1&pid=ImgDetMain&o=7&rm=3'">
+            </div>
+        </section>
+
+        <section class="section-card mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-center">¡Hora de Jugar! Preguntas Divertidas 🎉</h2>
+            <p class="text-lg mb-4 text-center">
+                A ver si te acuerdas de lo más importante... ¡sin trampas! 😉
+            </p>
+
+            <div class="mb-6">
+                <p class="text-xl font-semibold mb-2">
+                    1. Si el Estado Liberal fuera un animal, ¿cuál sería el más parecido a su idea de "menos control del gobierno"? 🦁🦅🦋
+                </p>
+                <ul class="list-none ml-4 text-lg">
+                    <li>A) Un león que ruge y manda a todos. 🦁</li>
+                    <li>B) Un águila que vuela alto y observa, pero no interviene. 🦅</li>
+                    <li>C) Una mariposa que se posa en todas las flores y las controla. 🦋</li>
+                </ul>
+                <button class="answer-button" onclick="toggleAnswer('q1-answer')">Ver Respuesta</button>
+                <div id="q1-answer" class="answer-box">
+                    <p>¡La respuesta correcta es la B) Un águila! 🦅 El Estado Liberal busca observar y proteger, pero sin controlar cada paso de la gente.</p>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <p class="text-xl font-semibold mb-2">
+                    2. ¿Qué "receta secreta" usó el Estado Liberal para que la economía de Argentina creciera como espuma? 📈🍽️
+                </p>
+                <ul class="list-none ml-4 text-lg">
+                    <li>A) Cerrar las fronteras y producir solo para nosotros. 🚫</li>
+                    <li>B) Invitar a mucha gente y dinero de otros países. 🤝💰</li>
+                    <li>C) Que el gobierno controlara todos los negocios. 🏢</li>
+                </ul>
+                <button class="answer-button" onclick="toggleAnswer('q2-answer')">Ver Respuesta</button>
+                <div id="q2-answer" class="answer-box">
+                    <p>¡La respuesta correcta es la B) Invitar a mucha gente y dinero de otros países! 🤝💰 Esa fue la clave para la expansión económica.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-gray-500 text-sm mt-8">
+            <p>¡Esperamos que hayas disfrutado este viaje por el pasado argentino! 🇦🇷📖</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleAnswer(id) {
+            const answerBox = document.getElementById(id);
+            if (answerBox.style.display === 'block') {
+                answerBox.style.display = 'none';
+            } else {
+                answerBox.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
